@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Para mas informacion?</h1>
+        <div class="address">
+          <p><img src="./imagen/icons8-tierra-48.png"><span>PLUS-QUIMICA</span> PE: Av. Los Pinos 1001-San Borja</p>
+        </div>
+        <div class="form-container">
+            <form id="contactForm">
+                <input type="text" name="firstName" placeholder="Nombre" required>
+                <input type="text" name="lastName" placeholder="Apellido" required>
+                <input type="email" name="email" placeholder="Correo" required>
+                <textarea name="message" placeholder="Como podemos ayudarte..." required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>
